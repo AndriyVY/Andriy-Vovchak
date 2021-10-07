@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Andriy Vovchak</title>
+  </head>
+
+    <body data-spy="srcoll" data-target="#navbarResponsive">
+
+      <!---------- Navbar Start --------->
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                  
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+          
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#what-can-i-do">What can I do for you</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience & Learning</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Let's Talk</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Social & Code
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="https://www.instagram.com/the.andriyvy/?hl=en">Instagram</a></li>
+                          <li><a class="dropdown-item" href="https://www.linkedin.com/in/andriyvovchak">LinkedIn</a></li>
+                          
+                          <li>
+                            <a class="dropdown-item" href="https://github.com/TTMAndriy/HTML-CSS.git">GitHub</a>
+                          </li>
+                        </ul>
+                      </li>
+                      
+                    </ul>
+          
+                    
+                  </div>
+          
+                </div>
+              </nav>
+        </div>
+            <!--------- Navbar End ------->
+
+
+
+            <!------- Background Start --------->
+
+              <section class="home py-5 mt-1"> <!--margin top on y axis and margin top -->
+                  <div class="container-lg">
+                      <div class="row min-vh-100 align-items-center align-content-center"> <!-- specifying minimum hight and center content-->
+                          <div class="col-md-6 mt-4 mb-4"> <!--margin top and boottom for the image -->
+                              <div class="home-img text-center"> <!-- important to specify in order to keep the text centered and, so, the image aligned -->
+                                  <img src="img/Andriy Vovchak (1).png"  class="rounded-circle mw-100" alt="Andriy Vovchak Profile">
+                              </div>
+                          </div>
+                          <div class="col-md-6 order-md-first"> <!--put the text first-->
+                              <div class="home-text py-6">
+                                  <p class="text-muted mb-1 mt-3">Hello there! I'm</p> <!--customize margin top and margin bottom-->
+                                  <h1>I'm Andriy</h1>
+                                  <h3 class="mb-3">Computer Science Student, Marketer, Psychologist.</h3>
+                                  <p class="text-muted">Nice to see you here. <br> This is my portfolio website. Explore it
+                                      if you want. <br>
+                                      Do you want to talk about something cool?
+                                  </p>
+                                  <a href="#contact-me" class="btn btn-color-1 px-4 mt-2">Let's Talk</a> <!-- adjusting button's padding and margin -->
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+            <!------- Background End -------->
+            
+
+
+            <!------- About Me Start -------->
+
+              <section class="about-me offset py-4" id="about"> <!-- offset class will help when the user click at the link on the navbar to go to a specific section -->
+                  <div class="container-lg py-4">
+                      <div class="row justify-content-center mt-4 mb-5"> <!--center the row-->
+                          <div class="col-lg-8">
+                              <div class="section-title text-center"><h1 class="mb-6">About Me</h1> <!--put the text at the center of the row-->
+                            </div>        
+                          </div>
+                      </div>
+                      <div class="row align-items-center align-content-center">
+                        <div class="col-md-6">
+                            <div class="about-me-text">
+                                <h3 class="mb-3">Wanna know more about me?</h3>
+                                <p>If you think that the CS-Marketing-Psychology combo is unusual, well you're right! 
+                                <br>
+                                <br>    
+                                    I wholeheartedly believe that <strong>no instution should dictate the path </strong> of a human being. 
+                                    Therefore, I decided that I should create mine.
+                                <br>
+                                <br>
+                                    Nowadays, we have the possibility to become whatever we want, just picking up stuff online and studying it. 
+                                <br>
+                                <br>
+                                    My <strong>mission</strong> is to create great products that people love to use and market to those who need them.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/Tavola da disegno – 2.png" class="img-fluid" alt="Mark Twain Quote"> <!-- With this class the image will be responsible as needed -->
+                        </div>
+                    </div>
+                  </div>
+              </section>
+
+            <!------- About Me End -------->
+
+
+
+            <!------- Skills Section Start -------->
+
+              <section class="skill offset py-5" id="what-can-i-do">
+                  <div class="container-lg py-4">
+                      <div class="row justify-content-center">
+                          <div class="col-lg-8">
+                              <div class="section-title text-center">
+                                <h1 class="mb-5">What Can I Do for You</h1>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <div class="skill-text">
+                                <h3 class="mb-3">T-shape</h3>
+                                <p>Here you can see what can I do for your project. <br>
+                                    Having a lot of passions is bringing me to study new stuff 
+                                    and improving my skills.
+                                    <br>
+                                    <br>
+                                    So, How may I help you?
+                                </p>
+                                <a href="#contact-me" class="btn btn-color-1 px-4 mt-2 mb-3 w-40">Contact Me</a>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="skill-item mt-5 mb-2">
+                                  <h3 class="mb-3 mt-2">HTML-CSS-Bootstap-Sass</h3>
+                                  <div class="progress" style="height: 4px;">
+                                    <div class="progress-bar" 
+                                         role="progressbar" 
+                                         style="width: 70%; background-color: #45a29e !important;"
+                                         aria-valuenow="70" 
+                                         aria-valuemin="0" 
+                                         aria-valuemax="100"
+                                         ></div> <!--- Modifying the style section is the best way I found so far in order to modify the color of the bar --->
+                                  </div>
+                              </div>
+                              <div class="skill-item mt-4 mb-2">
+                                <h3 class="mb-3 mt-2">Python</h3>
+                                <div class="progress" style="height: 4px;">
+                                  <div class="progress-bar" 
+                                       role="progressbar" 
+                                       style="width: 40%; background-color: #45a29e !important;" 
+                                       aria-valuenow="70" 
+                                       aria-valuemin="0" 
+                                       aria-valuemax="100"
+                                       ></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mt-4 mb-2">
+                                <h3 class="mb-3 mt-2">Digital & Social Media Marketing</h3>
+                                <div class="progress" style="height: 4px;">
+                                  <div class="progress-bar" 
+                                       role="progressbar" 
+                                       style="width: 77%; background-color: #45a29e !important;" 
+                                       aria-valuenow="70" 
+                                       aria-valuemin="0" 
+                                       aria-valuemax="100"
+                                       ></div>
+                                </div>
+                            </div>
+                            <div class="skill-item mt-4 mb-2"> 
+                                <h3 class="mb-3 mt-2">Project Management</h3>
+                                <div class="progress" style="height: 4px;">
+                                  <div class="progress-bar" 
+                                       role="progressbar" 
+                                       style="width: 73%; background-color: #45a29e !important;" 
+                                       aria-valuenow="70" 
+                                       aria-valuemin="0" 
+                                       aria-valuemax="100"
+                                       ></div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+            <!------- Skills Section End -------->
+        
+
+
+            <!------- Experience Section Start -------->
+
+            <div id="experience" class="container offset mt-3 mb-5">
+                <div class="row justify-content-center"> 
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                          <h1 class="mb-5">Experience</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-4 gy-5 justify-content-center"> <!-- specify gutter between the cards in order to create space between them on small devices -->
+                    <div class="col-12 col-md-6 col-lg-4"> <!-- adjust small, medium and small screen set up -->
+                        <div class="card">
+                            <img src="img/blockchain.jpg" class="card-img-top" alt="Blockchain Startup">
+                            <div class="card-body text-center"> <!-- To center the title, paragraph and the button. It looks better on mobile -->
+                              <h5 class="card-title">TeamBit</h5>
+                              <p class="card-text">My first experience: TeamBit is a startup focused on developing Blockchain solutions.</p>
+                              <a href="https://www.team-bit.com/" class="btn btn-color-1">Check it out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/personal.jpeg" class="card-img-top" alt="Working on Personal Projects">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Personal Projects</h5>
+                              <p class="card-text">The 2020 was awful, that's true. However, I met insipiring people and took part to a lot of projects.</p>
+                              <a href="https://www.instagram.com/project.value/?hl=en" class="btn btn-color-1">Check one of them</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="img/design.jpeg" class="card-img-top" alt="Design prototyping">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Eye Studios</h5>
+                              <p class="card-text">This incredible team is revolutionizing the UX Design business in Italy.</p>
+                              <a href="http://eyestudios.it/it/" class="btn btn-color-1">Check it out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------- Experience Section End -------->
+
+            <hr>
+
+            <!------- Learning Section Start -------->
+
+            <div id="experience" class="container mt-4 mb-5">
+              <div class="row justify-content-center"> 
+                  <div class="col-lg-8">
+                      <div class="section-title text-center">
+                        <h1 class="mb-5">Learning</h1>
+                      </div>
+                  </div>
+              </div>
+              <div class="row gx-4 gy-5 justify-content-center"> <!-- specify gutter between the cards in order to create space between them on small devices -->
+                  <div class="col-12 col-md-6 col-lg-4"> <!-- adjust small, medium and small screen set up -->
+                      <div class="card">
+                          <img src="img/Tavola da disegno – 4.png" class="card-img-top" alt="Start2Impact Community">
+                          <div class="card-body text-center">
+                            <h5 class="card-title">Start2Impact</h5>
+                            <p class="card-text">I'm studying on Start2Impact, an amazing italian community where you can study cool stuff.</p>
+                            <a href="https://www.start2impact.it/" class="btn btn-color-1">Learn more</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card">
+                          <img src="img/Tavola da disegno – 3.png" class="card-img-top" alt="Harvard CS50">
+                          <div class="card-body text-center">
+                            <h5 class="card-title">CS50 for AI</h5>
+                            <p class="card-text">The best Harvard course avalaible online with an introduction to Artificial Intelligence with Python.</p>
+                            <a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0" class="btn btn-color-1">Learn more</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="card">
+                          <img src="img/Tavola da disegno – 5.png" class="card-img-top" alt="Luca La Mesa Social Media">
+                          <div class="card-body text-center">
+                            <h5 class="card-title">Social Media Manager</h5>
+                            <p class="card-text">In Italy every Social Media Manager has one guru: Luca La Mesa. I took some of his courses.</p>
+                            <a href="https://www.lucalamesa.com/" class="btn btn-color-1">Learn more</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!--------- Learning Section End ---------->
+
+
+
+          <!--------- Form Section Start ---------->
+
+          <div id="contact-me" class="container offset mt-5 md-5 col-12 col-md-6 col-lg-6">
+            <div class="post-heading">
+              <div class="row justify-content-center"> 
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                      <h1 class="mb-4 mt-5">Let's talk</h1>
+                    </div>
+                </div>
+            </div>
+              <form action="/action_page.php">
+                <div class="form-group mt-1 mb-3">
+                  <label for="email">Your Email:</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group mt-3 mb-3">
+                  <label for="email">Your Full name:</label>
+                  <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group mt-3 mb-3">
+                  <label for="email">What do you want to talk about with me?</label>
+                  <textarea class="form-control" rows="4" placeholder="Tell me what do you expect from me"></textarea>
+                </div>
+                <button type="submit" class="btn btn-color-1 mt-1 mb-5 ">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <!--------- Form Section End ---------->
+
+
+
+          <!--------- Footer Section Start ---------->
+
+          <section id="footer" class="footer offset">
+            <!-- Footer -->
+            <footer class="text-center text-md-start">
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="footer-text col-lg-5 col-md-12 mb-4 mb-md-0">
+                    <p>
+                      Thank you so much for reaching me out! <br> I hope this website met your expectations. 
+                      <br> 
+                      <br> 
+                      I'm always try to improve my skills, so If you want give me your feedback about it.
+                    </p>
+                  </div>
+          
+                  <div class="text-center col-lg-6 col-md-12  mb-md-0">
+                    <ul class="mb-0">
+                      <li class="mb-2">
+                        <a href="https://github.com/TTMAndriy/HTML-CSS.git" class="text-white">GitHub</a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="https://www.linkedin.com/in/andriyvovchak" class="text-white">LinkedIn</a>
+                      </li>
+                      <li class="mb-2">
+                        <a href="https://www.instagram.com/the.andriyvy/?hl=en" class="text-white">Instagram</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-text text-center p-3">
+                <p>&copy; 2021 Copyright: Andriy Vovchak</p>
+              </div>
+            </footer>
+          </section>
+
+          <!--------- Footer Section End ---------->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+          
+    </body>
+
+</html>
